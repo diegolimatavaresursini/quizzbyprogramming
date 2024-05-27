@@ -1,0 +1,36 @@
+#QUIZ DE PROGRAMAÇÃO
+print("\n Pergunta 1: O que é algoritmo? \n")
+print("a. Um conjunto de instruções passo a passo para resolver um problema ou realizar uma tarefa computacional. \n")
+print("b. Um sistema operacional antigo, muito semelhante ao antigo windows 3.11 que portava o ms-dos. \n")
+print("c. Um protocolo de informação da internet, mais específico o anterior ao sistema tcp-ip. \n")
+print("d. Uma linguagem de programação básica, específica para hardware de computador. \n")
+
+resposta1 = str(input(""))
+
+if resposta1 =="a":
+  print("acertou!")
+elif resposta1 == "b":
+  print("errou, continue.")
+elif resposta1 == "c":
+  print("errou, revise depois.")
+elif resposta1 == "d":
+  print("errou, estude novamente.")
+else:
+  print("letra inválida, use somente a,b,c ou d (minúsculos)")
+print("Pronto para continuar?\n")
+print("pergunta 2: O que é um Byte? \n")
+print("a. Um termo que mostra a quantidade de memória que o pen drive suporta.\n")
+print("b. Uma unidade de armazenamento de dados, geralmente composta por 8 bits.\n")
+print("c. Um protocolo de informação da internet com 16 bits de interação.\n")
+print("d. Uma linguagem de programação específica para somente computadores de 64 bits.\n")
+
+resposta2 = str(input("b"))
+
+if resposta2 == "b":
+  print("acertou!")
+elif resposta1 == "a":
+  print("errou, continue.")
+elif resposta1 == "c":
+  print("errou, revise depois.")
+elif resposta1 == "d":
+  print("errou, estude novamente.")
